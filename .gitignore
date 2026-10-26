@@ -1,0 +1,29 @@
+# 개인 설정과 인증 정보
+.env
+.env.*
+*.key
+*.pem
+*credentials*
+*secret*
+
+# 실제 영상·음성·이미지 자료
+*.mp4
+*.mov
+*.mkv
+*.mp3
+*.wav
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# 로컬 작업 환경
+__pycache__/
+.venv/
+.uv-cache/
+.uv-tools/
+*.pyc
+
+# 개인별 진행 기록
+projects/
+workflow-status.local.json

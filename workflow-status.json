@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "projectId": "new-product",
+  "projectTitle": "새 상품 작업",
+  "updatedAt": "2026-10-26",
+  "publicReady": false,
+  "nextAction": "처음 발견한 숏폼 영상 링크와 실제 판매 상품 링크를 전달해 주세요.",
+  "stages": [
+    {"id": 1, "name": "상품 확인", "agent": "상품 확인 에이전트", "status": "waiting", "summary": "상품 링크와 선택 옵션을 기다리고 있습니다.", "outputs": []},
+    {"id": 2, "name": "영상 탐색", "agent": "영상 탐색 에이전트", "status": "waiting", "summary": "상품 기준이 확정되면 같은 상품의 영상을 찾습니다.", "outputs": []},
+    {"id": 3, "name": "Watch 분석", "agent": "Watch 분석 에이전트", "status": "waiting", "summary": "실제로 확보한 영상 파일을 분석합니다.", "outputs": []},
+    {"id": 4, "name": "대본 작성", "agent": "대본 작성 에이전트", "status": "waiting", "summary": "확인된 상품 사실과 영상 장면을 바탕으로 작성합니다.", "outputs": []},
+    {"id": 5, "name": "TTS 제작", "agent": "TTS 제작 에이전트", "status": "waiting", "summary": "확정된 대본으로 한국어 음성을 만듭니다.", "outputs": []},
+    {"id": 6, "name": "영상 편집", "agent": "영상 편집 에이전트", "status": "waiting", "summary": "영상 컷, 한국어 음성, 자막, 광고 표시를 합칩니다.", "outputs": []},
+    {"id": 7, "name": "품질 점검", "agent": "품질 점검 에이전트", "status": "waiting", "summary": "완성 영상의 내용과 화면·소리·공개 가능 여부를 확인합니다.", "outputs": []},
+    {"id": 8, "name": "설명글 작성", "agent": "설명글 작성 에이전트", "status": "waiting", "summary": "인스타그램과 유튜브 설명글을 따로 씁니다.", "outputs": []},
+    {"id": 9, "name": "피드백 관리", "agent": "피드백 관리 에이전트", "status": "waiting", "summary": "사용자 의견을 이번 수정과 다음 영상 규칙에 반영합니다.", "outputs": []}
+  ]
+}
